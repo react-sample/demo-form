@@ -66,3 +66,15 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+## Stack
+
+### Material-UI
+`npm install @material-ui/core`
+`npm install @material-ui/icons`
+
+### Roboto Font
+`npm i typeface-roboto`
+Make sure you only load 300, 400, & 500 font weights though!import 'typeface-roboto'
+
+
