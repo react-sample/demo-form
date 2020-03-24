@@ -1,13 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Pricing from './templates/pricing/Pricing';
-import Checkout from './templates/checkout/Checkout';
 import * as serviceWorker from './serviceWorker';
+import DemoForm from './modules/form/DemoForm';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Checkout />
+    <DemoForm/>
   </React.StrictMode>,
   document.getElementById('root')
 );
